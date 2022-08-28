@@ -1,3 +1,8 @@
+server:
+  port: 8000
+  servlet:
+    context-path: /blog
+
 spring:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
@@ -11,5 +16,3 @@ spring:
     hibernate:
       ddl-auto: update
 
-server:
-  port: 8080
